@@ -2,12 +2,21 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    background-color: #fff9dd;
  }
  
+ html{
+     scroll-behavior: smooth;
+ }
  body{
      font-size: 20px;
      font-family: sans-serif;
  }
+ header, footer{
+    background: #222831 ;
+    color: white;
+    height:60px;
+}
  
  h1{
      font-size:250%;
@@ -43,3 +52,21 @@
      font-size:80%;
      font-style: italic;
  }
+
+.Top{
+    width:80px;
+    height:80px;
+    background: #222831;
+    border:none;
+    font-size:150%;
+    font-family: 'Open Sans' , sans-serif;
+    border-radius: 5px;
+    color: white;
+    position: fixed;
+    bottom:120px;
+    right:120px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
