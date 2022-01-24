@@ -170,3 +170,40 @@ script{
 div{
     background-color: white;
 }
+
+@media screen and (max-width:1000px) {
+  article{
+      width:80vw;
+   }
+   footer > p{
+       width: 80vw;
+   }
+   img:hover{
+       transform: none;
+   }
+   .top{
+      width:60px;
+      height:60px;
+      bottom:60px;
+      right:60px;
+  }
+}
+
+
+@media screen and (max-width: 600px){
+  body{
+      font-size: 16px;
+  }
+  article{
+      width:100vw;
+      padding:20px;
+  }
+  h1{
+      font-size: 180%;
+  }
+  footer > p{
+      width:100vw;
+      padding-left: 20px;
+  }
+  
+}
