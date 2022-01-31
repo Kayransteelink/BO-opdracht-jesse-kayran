@@ -17,6 +17,9 @@
     color: white;
     height:90px;
 }
+link:first-of-type{
+  color: aqua;
+}
  
  h1{
      font-size:250%;
